@@ -5,7 +5,11 @@ namespace kolokwium2.Data;
 
 public class DatabaseContext : DbContext
 {
-    // public DbSet<Customer> Customers { get; set; }
+    // public DbSet<> wfawfawf { get; set; }
+    // public DbSet<> wfawfawf { get; set; }
+    // public DbSet<> wfawfawf { get; set; }
+    // public DbSet<> wfawfawf { get; set; }
+    // public DbSet<> wfawfawf { get; set; }
     
     protected DatabaseContext()
     {
@@ -18,9 +22,29 @@ public class DatabaseContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
-        // modelBuilder.Entity<Customer>().HasData(new List<Customer>()
+        // modelBuilder.Entity<>().HasData(new List<>()
         // {
-        //     new Customer() { CustomerId = 1, FirstName = "John", LastName = "Doe" },
+        //     
+        // });
+        //
+        // modelBuilder.Entity<>().HasData(new List<>()
+        // {
+        //     
+        // });
+        //
+        // modelBuilder.Entity<>().HasData(new List<>()
+        // {
+        //     
+        // });
+        //
+        // modelBuilder.Entity<>().HasData(new List<>()
+        // {
+        //     
+        // });
+        //
+        // modelBuilder.Entity<>().HasData(new List<>()
+        // {
+        //     
         // });
         
     }
