@@ -175,6 +175,12 @@ namespace poprawa.Migrations
                             ItemId = 3,
                             Name = "Item3",
                             Weight = 12
+                        },
+                        new
+                        {
+                            ItemId = 4,
+                            Name = "Item4",
+                            Weight = 50
                         });
                 });
 

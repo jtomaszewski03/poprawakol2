@@ -12,7 +12,7 @@ using poprawa.Data;
 namespace poprawa.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20250617131039_Init")]
+    [Migration("20250617132040_Init")]
     partial class Init
     {
         /// <inheritdoc />
@@ -178,6 +178,12 @@ namespace poprawa.Migrations
                             ItemId = 3,
                             Name = "Item3",
                             Weight = 12
+                        },
+                        new
+                        {
+                            ItemId = 4,
+                            Name = "Item4",
+                            Weight = 50
                         });
                 });
 

@@ -32,6 +32,7 @@ public class DatabaseContext : DbContext
             new Item() { ItemId = 1, Name = "Item1", Weight = 10},
             new Item() { ItemId = 2, Name = "Item2", Weight = 11},
             new Item() { ItemId = 3, Name = "Item3", Weight = 12},
+            new Item() { ItemId = 4, Name = "Item4", Weight = 50},
 
         });
         
