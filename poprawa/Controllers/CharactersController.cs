@@ -35,6 +35,7 @@ public class CharactersController : ControllerBase
     [HttpPost("{id}/backpacks")]
     public async Task<IActionResult> AddItemsToBackpack(int id, [FromBody] List<int> itemsIds)
     {
+        if (!itemsIds.Any()) return BadRequest("No items selected");
         try
         {
             await _dbService.AddItemsToBackpackAsync(id, itemsIds);
