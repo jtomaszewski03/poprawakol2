@@ -1,6 +1,6 @@
-using kolokwium2.Data;
-using kolokwium2.Services;
 using Microsoft.EntityFrameworkCore;
+using poprawa.Data;
+using poprawa.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
